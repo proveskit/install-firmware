@@ -1,0 +1,13 @@
+[project]
+name = "install-firmware"
+version = "1.0.0"
+dependencies = [
+    "requests",
+]
+authors = [
+    {name = "Saidi Adams"},
+]
+
+[project.scripts]
+install-firmware = "install_firmware:main"
+

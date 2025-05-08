@@ -1,0 +1,4 @@
+firmware.uf2
+__pycache__
+build/
+.DS_Store
