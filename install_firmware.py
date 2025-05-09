@@ -45,6 +45,10 @@ def main():
                 shutil.move("firmware.uf2", "/Volumes/RPI-RP2")
                 success = True
                 break
+            elif directory == "RP2350":
+                shutil.move("firmware.uf2", "/Volumes/RP2350")
+                success = True
+                break
 
     elif user_os == "Linux":
         # Check common mount points for Linux
@@ -54,6 +58,10 @@ def main():
                 for directory in os.listdir(mount_point):
                     if directory == "RPI-RP2":
                         shutil.move("firmware.uf2", os.path.join(mount_point, "RPI-RP2"))
+                        success = True
+                        break
+                    elif directory == "RP2350":
+                        shutil.move("firmware.uf2", os.path.join(mount_point, "RP2350"))
                         success = True
                         break
 
