@@ -10,6 +10,7 @@ firmwares = {
     "v4": "https://raw.githubusercontent.com/proveskit/flight_controller_board/main/Firmware/FC_FIRM_v4x_V2.uf2",
     "v5": "https://raw.githubusercontent.com/proveskit/flight_controller_board/main/Firmware/FC_FIRM_v5dev_V1.uf2",
     "v5a": "https://raw.githubusercontent.com/proveskit/flight_controller_board/main/Firmware/FC_FIRM_v5a_V1.uf2",
+    "v5b": "https://raw.githubusercontent.com/proveskit/flight_controller_board/main/Firmware/FC_FIRM_v5b_V1.uf2",
 }
 
 def main():
